@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(page_title="AP NOTES Platform", page_icon="📚", layout="centered")
 
 # --- DATABASE එකක් වෙනුවට තාවකාලික මතකය (Session State) ---
-if "notes_db" not in st.st._session_state if hasattr(st, "_session_state") else st.session_state:
+if "notes_db" not in st.session_state:
     st.session_state["notes_db"] = [
         {
             "subject": "Physics",
