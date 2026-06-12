@@ -26,7 +26,7 @@ def load_data():
 df = load_data()
 
 # --- HEADER SECTION ---
-st.title("📚 AP NOTES වේදිකාව")
+st.title("📚 AP NOTES 2027")
 st.write("ලංකාවේ විශිෂ්ටතම Telegram Notes එක තැනකින් ලබාගන්න.")
 st.markdown("---")
 
